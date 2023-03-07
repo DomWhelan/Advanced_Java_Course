@@ -22,13 +22,13 @@ public class TicketMachine {
         List<String> destinations = flattenList(destinationLists);
         System.out.println(destinations);
 
-//        List<Ticket> tickets = flattenList(ticketLists);
-//        System.out.println(tickets);
+        List<Ticket> tickets = flattenList(ticketLists);
+        System.out.println(tickets);
 
-//        System.out.println("Total price: " + getTotalPrice(tickets));
+        System.out.println("Total price: " + getTotalPrice(tickets));
 
-//        List<AdultTicket> adultTickets = asList(new AdultTicket(), new AdultTicket());
-//        System.out.println("Total price: " + getTotalPrice(adultTickets));
+        List<AdultTicket> adultTickets = asList(new AdultTicket(), new AdultTicket());
+        System.out.println("Total price: " + getTotalPrice(adultTickets));
 
     }
 
