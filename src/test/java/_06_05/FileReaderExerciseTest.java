@@ -17,7 +17,8 @@ class FileReaderExerciseTest {
 
     @Test
     public void testGetWholeFile() {
-        String expected = "For example both can be used to read input from the terminal, or read input from a file." +
+        String expected = "Scanners and BufferedReaders can perform similar operations in Java." +
+                "For example both can be used to read input from the terminal, or read input from a file." +
                 "However they work slightly differently." +
                 "The Scanner class parses tokens from the stream, whereas BufferedReader just reads the input line by line." +
                 "This means that it is slightly faster to read input using a BufferedReader, as it doesn't parse the content." +
